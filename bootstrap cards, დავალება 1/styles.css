@@ -1,0 +1,13 @@
+
+.burgermenu{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+    .navform{
+        display: none !important;
+    }
+    .burgermenu{
+        display: block;
+    }
+}
